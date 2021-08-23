@@ -1,11 +1,3 @@
-## Laravel 8  & TailwindCSS 2 skeleton
-
-Whether you’re watching my tutorials or you are interested in cloning this repo where TailwindCSS is already implemented in an empty Laravel 8 project!
-
-•	Author: Code With Dary <br>
-•	Twitter: [@codewithdary](https://twitter.com/codewithdary) <br>
-•	Instagram: [@codewithdary](https://www.instagram.com/codewithdary/) <br>
-
 ## Requirements
 •	PHP 7.3 or higher
 
@@ -46,4 +38,30 @@ php artisan cache:clear && php artisan config:clear
 Finally, run your project in the browser!
 ```
 php artisan serve
+```
+
+## Lesson
+Create a job
+```
+php artisan make:job #Name
+```
+
+Create a mailer
+```
+php artisan make:mail #Name
+```
+
+Create queue migration table
+```
+php artisaqn queue:table
+```
+
+Migrate into DB
+```
+php artisan migrate
+```
+
+Run queue
+```
+php artisan queue:work
 ```
